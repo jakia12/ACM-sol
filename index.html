@@ -24,6 +24,25 @@
       sizes="180x180"
     />
     <style>
+      .img_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 80px;
+        background-color: #222;
+      }
+
+      @media screen and (max-width: 768px) {
+        .img_box {
+          display: block;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 0 80px;
+          background-color: #222;
+        }
+      }
+    </style>
+    <style>
       :root {
         --ffsd: 0px;
         --1vw: calc((100vw - var(--sbw, 0px)) / 100);
@@ -774,6 +793,7 @@
             </div>
           </div>
         </div>
+
         <div
           id="FbUqlgrORUGgVov7"
           style="display: grid; position: relative; grid-area: 1 / 2 / 2 / 3"
@@ -1043,7 +1063,17 @@
             </div>
           </div>
         </div>
+
+        <!-- ca section -->
       </section>
+      <div class="img_box">
+        <img src="/images/logo.png" alt="" />
+        <div>
+          <span style="font-size: 20px; color: #fff"
+            >CA : xxxxxxxxxxxxxxxxxxx</span
+          >
+        </div>
+      </div>
       <script
         src="js/a7bdac05b24347a77bc2ba39247eaaf9c12b11b8b5b7c8ffcd473c8cd1f4ef7d.js"
         async=""
